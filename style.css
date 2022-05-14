@@ -1,0 +1,17 @@
+.body{
+    background-color: grey;
+}
+.first{
+    color: white;
+}
+.second{
+    color: gray;
+}
+.third{
+    background-color: rgb(246, 124, 228);
+    margin-right: 65rem;
+}
+.fourth h2{
+    background-color: white;
+    margin-right: 90rem;
+}
