@@ -1,34 +1,116 @@
-form{
-    margin: auto ;
-    padding: 80px;
-    max-width: 300px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.body{
-    background-color: grey;
+body {
+  background-color: rgb(50, 45, 45);
+  font-family: arial, sans-serif;
 }
 
-.first{
-    color: white;
+.first {
+  margin: 0 auto;
+  width: 50%;
+  padding: 4rem;
+  color: white;
+  font-size: large;
+  font-weight: 300;
 }
+
 .second>input{
-    color: white;
     background-color: transparent;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 14%;
+    color: rgb(255, 255, 255);
+    margin-bottom: -4rem;
+    font-size: larger;
 }
-.third{
-    background-color: rgb(246, 124, 228);
-    padding: 3rem;
 
+.case {
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  padding-left: 3rem;
+  display: flex;
 }
-.third h2{
-    width: 2rem;
-    font: 1em ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+.case2{
+    display: flexbox;
+    padding-left: 2rem;
 }
-.total{
-    display: block;
-    margin-left: 27em;
-    margin-bottom: -2em;
-    background-color: brown;
+.buy button{
+    border-color: transparent;
+    background-color: rgb(16, 98, 123);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.box {
+  width: 385px;
+  height: 155px;
+  background-color: rgb(157, 98, 130);
+  margin-left: 21.6rem;
+  position: relative;
+  
+}
+
+.box2 {
+  width: 346px;
+  height: 120px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 24.7rem;
+  position: absolute;
+  left: 1.2rem;
+  top: 1rem;
+  box-shadow: 0px 3.7px 5px 2px rgba(26, 24, 24, 0.4);
+}
+
+.circle1 {
+  width: 20px;
+  height: 20px;
+  background: rgb(54, 7, 54);
+  border-radius: 50%;
+  border: 3.5px solid rgb(122, 29, 122);
+  position: absolute;
+  left: 27.7rem;
+  top: 1.5rem;
+}
+
+.circle2 {
+  width: 20px;
+  height: 20px;
+  background: rgb(54, 7, 54);
+  border-radius: 50%;
+  border: 3.5px solid rgb(122, 29, 122);
+  position: absolute;
+  left: 43.5rem;
+  top: 1.5rem;
+}
+
+.name {
+  font-size: x-large;
+  font-weight: 900;
+  width: 9.15cm;
+  height: 4rem;
+  background-color: white;
+  text-align: center;
+  padding-top: 1rem;
+  position: absolute;
+  left: 25.9rem;
+  top: 1.5rem;
+  box-shadow: 0px 3.7px 5px 2px rgba(62, 62, 60, 0.4);
+}
+
+.footer {
+   display: block;
+   text-align: center;
+   font-size: small;
+   margin-top: 40%;
+   margin-left: -10rem;
 }
